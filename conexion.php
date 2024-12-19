@@ -11,10 +11,4 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-
-$host = "localhost";
-$usuario = "root";
-$contrasenia = "";
-$base_de_datos = "domingosavio";
-
 return $conn; 

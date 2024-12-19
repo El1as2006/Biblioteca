@@ -6,16 +6,7 @@ if (!isset($_SESSION['id_usuario'])) {
     exit();
 }
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "biblioteca";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
+include "../../conexion.php";
 
 if (isset($_GET['id'])) {
     $id_estudiante = $_GET['id'];
@@ -209,8 +200,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>2024 © Biblioteca - Todos los derechos reservados</p>
     </div>
 
-    <script src="./js/jquery1-3.4.1.min.js"></script>
-    <script src="./js/bootstrap1.min.js"></script>
+    <script src="../../js/jquery1-3.4.1.min.js"></script>
+    <script src="../../js/bootstrap1.min.js"></script>
 </body>
 </html>
 

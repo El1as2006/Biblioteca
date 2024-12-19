@@ -12,10 +12,10 @@
     </div>
 
     <!-- JS Libraries -->
-    <script src="./js/jquery1-3.4.1.min.js"></script>
-    <script src="./js/popper1.min.js"></script>
-    <script src="./js/bootstrap1.min.js"></script>
-    <script src="./js/metisMenu.js"></script>
-    <script src="./js/custom.js"></script>
+    <script src=".././js/jquery1-3.4.1.min.js"></script>
+    <script src=".././js/popper1.min.js"></script>
+    <script src=".././js/bootstrap1.min.js"></script>
+    <script src=".././js/metisMenu.js"></script>
+    <script src=".././js/custom.js"></script>
 </body>
 </html>

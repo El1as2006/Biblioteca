@@ -1,6 +1,5 @@
-<nav class="sidebar">
     <div class="logo d-flex justify-content-between">
-        <a href="index.php"><img src="./img/logo_chaleco.png" alt></a>
+        <a href="index.php"><img src="../../img/logo_chaleco.png" alt></a>
         <div class="sidebar_close_icon d-lg-none">
             <i class="ti-close"></i>
         </div>
@@ -8,13 +7,13 @@
     <ul id="sidebar_menu">
         <li class="mm-active">
             <a href="index.php" aria-expanded="false">
-                <img src="./img/menu-icon/1.svg" alt>
+                <img src="../../img/menu-icon/1.svg" alt>
                 <span>Dashboard</span>
             </a>
         </li>
         <li>
             <a class="has-arrow" href="#" aria-expanded="false">
-                <img src="./img/menu-icon/6.svg" alt>
+                <img src="../../img/menu-icon/6.svg" alt>
                 <span>Estudiantes</span>
             </a>
             <ul>
@@ -24,7 +23,7 @@
         </li>
         <li>
             <a class="has-arrow" href="#" aria-expanded="false">
-                <img src="./img/menu-icon/2.svg" alt>
+                <img src="../../img/menu-icon/2.svg" alt>
                 <span>Libros</span>
             </a>
             <ul>
@@ -37,7 +36,7 @@
         </li>
         <li>
             <a class="has-arrow" href="#" aria-expanded="false">
-                <img src="./img/menu-icon/3.svg" alt>
+                <img src="../../img/menu-icon/3.svg" alt>
                 <span>Prestamos</span>
             </a>
             <ul>
